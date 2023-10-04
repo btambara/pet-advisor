@@ -1,0 +1,274 @@
+[
+    {
+        "model": "pet.breed",
+        "pk": 1,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Abyssinian"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 2,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Australian Mist"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 3,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Balinese"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 4,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Bengal"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 5,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Birman"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 6,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Bombay"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 7,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "British Shorthair"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 8,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Burmese"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 9,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Burmilla"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 10,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Cornish Rex"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 11,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Devon Rex"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 12,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Egyptian Mau"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 13,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Exotic Shorthair"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 14,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Japanese Bobtail"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 15,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Korat"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 16,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "La Perms"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 17,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Maine Coon"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 18,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Manx"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 19,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Norwegian Forest"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 20,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Ocicat"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 21,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Oriental Shorthair"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 22,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Persian Longhair"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 23,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Ragdoll"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 24,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Russian Blue"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 25,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Scottish Fold"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 26,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Siamese"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 27,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Siberian Forest"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 28,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Singapura"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 29,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Snowshoe"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 30,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Somali"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 31,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Sphynx"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 32,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Tiffanie"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 33,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Tonkinese"
+        }
+    },
+    {
+        "model": "pet.breed",
+        "pk": 34,
+        "fields": {
+            "pet_type": "Cat",
+            "name": "Turkish Van"
+        }
+    }
+]
