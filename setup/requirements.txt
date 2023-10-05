@@ -6,15 +6,42 @@
 #
 asgiref==3.7.2
     # via django
+certifi==2023.7.22
+    # via requests
+cffi==1.16.0
+    # via cryptography
+charset-normalizer==3.3.0
+    # via requests
+cryptography==41.0.4
+    # via jwcrypto
+deprecated==1.2.14
+    # via jwcrypto
 django==4.2.5
     # via
     #   -r setup/requirements.in
+    #   django-oauth-toolkit
     #   djangorestframework
+django-oauth-toolkit==2.3.0
+    # via -r setup/requirements.in
 djangorestframework==3.14.0
     # via -r setup/requirements.in
+idna==3.4
+    # via requests
+jwcrypto==1.5.0
+    # via django-oauth-toolkit
+oauthlib==3.2.2
+    # via django-oauth-toolkit
+pycparser==2.21
+    # via cffi
 pytz==2023.3.post1
     # via djangorestframework
+requests==2.31.0
+    # via django-oauth-toolkit
 sqlparse==0.4.4
     # via django
 typing-extensions==4.8.0
     # via asgiref
+urllib3==2.0.6
+    # via requests
+wrapt==1.15.0
+    # via deprecated

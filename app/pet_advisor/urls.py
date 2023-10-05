@@ -30,5 +30,5 @@ router.register(r'pets', PetViewSet, 'pet')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
 ]
