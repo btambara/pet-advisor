@@ -12,4 +12,4 @@ class BreedSerializer(serializers.HyperlinkedModelSerializer):
 class PetSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Pet
-        fields = ['url', 'owner', 'breed', 'name', 'birth_date']
+        fields = ['pk', 'url', 'owner', 'breed', 'name', 'birth_date']

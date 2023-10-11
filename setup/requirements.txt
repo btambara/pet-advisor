@@ -19,8 +19,11 @@ deprecated==1.2.14
 django==4.2.5
     # via
     #   -r setup/requirements.in
+    #   django-cors-headers
     #   django-oauth-toolkit
     #   djangorestframework
+django-cors-headers==4.2.0
+    # via -r setup/requirements.in
 django-oauth-toolkit==2.3.0
     # via -r setup/requirements.in
 djangorestframework==3.14.0
