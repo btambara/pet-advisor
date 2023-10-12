@@ -108,14 +108,13 @@ export default function Dashboard() {
         let type = JSON.parse(breedJSON).pet_type
 
         let exists = false;
-        petItems.forEach((pet)=>{
-            if(pet.pk == pk){
+        for(let i=0; i < petItems.length; i++){   
+            if(petItems[i].pk == pk){
                 exists = true;
-            }else{
-                exists = false;
+                break;
             }
-        })
-        
+        }
+
         if(!exists){
             petItems.push(new PetModel(pk, owner, type, breed, name, dob));
         }

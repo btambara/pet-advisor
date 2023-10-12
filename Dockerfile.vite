@@ -1,0 +1,7 @@
+FROM node:alpine3.18
+
+WORKDIR /app
+
+COPY www .
+
+CMD [ "npm install" ]

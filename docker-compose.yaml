@@ -1,0 +1,23 @@
+services:
+  vite:
+    build:
+      context: .
+      dockerfile: Dockerfile.vite
+    container_name: vite-pet-advisor
+    command: npm run dev -- --host
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./www:/app
+    depends_on:
+      - django
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile.django
+    container_name: django-pet-advisor
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./app:/app
+    ports:
+      - "8000:8000"
