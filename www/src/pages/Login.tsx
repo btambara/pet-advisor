@@ -58,13 +58,12 @@ export default function Login() {
             data.append('username', loginData.username);
             data.append('password', loginData.password);
             data.append('grant_type', 'password');
+            data.append('client_id', import.meta.env.VITE_CLIENT_ID)
+            data.append('client_secret', import.meta.env.VITE_CLIENT_SECRET)
     
             axios({
                 url: "http://localhost:8000/o/token/",
                 method: "POST",
-                headers: {
-                    Authorization: "Basic NGhFS1pkVVIyeUFPbzdSM3A5MjFlZWFIbkF4ZzhBUGZYRUtOUXdqbjo4ZUNxc2o3OEtaSVg2QnZwVmNjZVZZVFRWZW8wN0tnZ244MHAxT3VKYzViWWJQZHdRd0F3SGJBWjJXTExrc29CZzVsYXF5YjlYR2VGMUlGSTc5YjROQmNDM09zQ093SGNnb2pZU2pCUzFHMDZvczRDMWNOVzZFTGo4emZvdzFtSw==",
-                },
                 data: data,
             })
                 .then((res) => {
